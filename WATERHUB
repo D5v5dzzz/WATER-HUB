@@ -1,0 +1,43 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "~|💧Water Hub💧|~", HidePremium = false, IntroText = "💧Water Hub💧", SaveConfig = true, ConfigFolder = "WaterConfig"})
+local FarmTab = Window:MakeTab({
+	Name = "💧TSBG Scripts💧",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+FarmTab:AddButton({
+	Name = "💧Gojo Script💧 (Credits To IamAnAgent)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/VjSbP1za"))()
+  	end    
+})
+ 
+FarmTab:AddButton({
+	Name = "💧Mahito Script💧 (Credits To GoldenHead)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate'))()
+  	end    
+})
+
+local FarmTab = Window:MakeTab({
+	Name = "💧Flinging💧",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+FarmTab:AddButton({
+	Name = "💧Flinging Script💧",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
+  	end    
+})
+
+ 
+ 
+ 
+ 
+ 
+ 
+end
+OrionLib:Init()
